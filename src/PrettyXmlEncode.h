@@ -8,7 +8,7 @@
 
 class PrettyXmlEncode: public ghidra::XmlEncode
 {
-	private:
+/*	private:
 		int depth = 0;
 		void indent();
 
@@ -16,6 +16,7 @@ class PrettyXmlEncode: public ghidra::XmlEncode
 		PrettyXmlEncode(std::ostream &s) : XmlEncode(s) {}
 		void openElement(const ghidra::ElementId &elemId) override;
 		void closeElement(const ghidra::ElementId &elemId) override;
+        */
 };
 
 #endif

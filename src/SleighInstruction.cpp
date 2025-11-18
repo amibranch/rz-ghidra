@@ -98,6 +98,8 @@ SleighParserContext *RizinSleigh::newSleighParserContext(Address &addr, SleighIn
 	SleighParserContext *pos = new SleighParserContext(getContextCache(), this);
 	pos->initialize(1, 0, getConstantSpace());
 	pos->setAddr(addr);
+	//Constructor * ctor = pos->getConstructor();
+    //ctor->setState(&proto->rootState);
 	pos->setPrototype(proto);
 	// resolve(*pos); // Resolve ALL the constructors involved in the instruction at this address
 	// resolveHandles(*pos); // Resolve handles (assuming Constructors already resolved)

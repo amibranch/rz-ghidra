@@ -8,7 +8,7 @@ prefix = get_option('prefix')
 sleighhome=join_paths(prefix, libdir, 'rizin', 'plugins', 'rz_ghidra_sleigh')
 
 rz_ghidra_plugin_source = [
-  join_paths('src', 'PrettyXmlEncode.cpp'),
+  #join_paths('src', 'PrettyXmlEncode.cpp'),
   join_paths('src', 'CodeXMLParse.cpp'),
   join_paths('src', 'PcodeFixupPreprocessor.cpp'),
   join_paths('src', 'ArchMap.cpp'),

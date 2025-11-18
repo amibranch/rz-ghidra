@@ -7,8 +7,9 @@ using namespace ghidra;
 
 void PrettyXmlEncode::indent()
 {
+
 	for(int i = 0; i < depth; i++)
-		outStream << "  ";
+        	outStream << "  ";
 }
 
 void PrettyXmlEncode::openElement(const ElementId &elemId)
